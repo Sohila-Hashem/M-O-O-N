@@ -4,7 +4,8 @@
   box-sizing: border-box;
 }
 
-body, html {
+body,
+html {
   height: 100%;
   width: 100%;
   overflow: hidden;
@@ -35,12 +36,12 @@ canvas {
   }
 
   @media screen and (min-width: 1444px) {
-    font-size: clamp(1rem, 2vw, 4rem);
+    font-size: clamp(1rem, 1.2vw, 4rem);
   }
 
   .logo {
     font-weight: 700;
-    word-spacing: .3rem;
+    word-spacing: 0.3rem;
   }
 
   .nav__list {
@@ -73,6 +74,6 @@ canvas {
   word-spacing: 4.8px;
 
   @media screen and (min-width: 1444px) {
-    font-size: clamp(1rem, 7.5vw, 5rem);
+    font-size: clamp(1rem, 3.5vw, 5rem);
   }
 }
